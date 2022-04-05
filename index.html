@@ -11,6 +11,7 @@
         picture {
            display: flex;
            justify-content: center;
+           align-items: center;
         }
     </style>
 </head>
@@ -18,20 +19,20 @@
     <picture>
         <!--Desktop size-->
         <source srcset="images/Desktop/Perspective.jpeg 1x, images/Desktop/Perspective-2x.jpeg 2x, images/Desktop/Perspective-3x.jpeg 3x"       
-                media="(min-width: 1025px)">
+                media="(min-width: 1050px)">
 
         <!--Tablet size-->
         <source srcset="images/Tablet/Perspective-tablet.jpeg 1x, images/Tablet/Perspective-tablet-2x.jpeg 2x, images/Tablet/Perspective-3x.jpeg 3x"       
-                media="(min-width: 650px)">
+                media="(min-width: 670px)">
 
         <source srcset="images/Tablet/Perspective-small.jpeg"       
-                media="(min-width: 485px)">        
+                media="(min-width: 500px)">        
 
         <!--Mobile size-->
         <source srcset="images/Mobile/Perspective-mobile.jpeg, images/Mobile/Perspective-2x-mobile.jpeg 2x">        
 
         <img src="images/Mobile/Perspective-mobile.jpeg"
-            style="height: 95vh; max-width: 100vw;"
+            style="height: 70vh; max-width: 70vw;"
             alt="A crux where it is written 'Cristus Deus Homo'"/>
     </picture>
 </body>
